@@ -132,12 +132,22 @@ body {
 }
 
 .btn.one{
-    background-color: rgb(29, 162, 234);
+    background-color: rgb(29, 60, 234);
     color: #fff;
 }
-
+.btn.one:hover {
+    background-color:#287bf0;
+    color:rgb(205, 220, 220);
+    cursor:pointer;
+}
 .btn.two{
     color: rgb(29, 162, 234);
+}
+
+.btn.two:hover{
+    background-color:#7c797bad;
+    color:#1562de;
+    cursor : pointer;
 }
 
 /*----------------------------------TYPING-ANIMATION----------------------------------*/
