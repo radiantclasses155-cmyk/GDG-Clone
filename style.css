@@ -62,6 +62,10 @@ body {
     align-content:flex-start;
 }
 
+.logo:hover {
+  cursor:pointer;
+}
+
 .container2 {
     display:flex;
     justify-content:center;
@@ -77,6 +81,7 @@ body {
     align-items: spc;
     border-radius:30px;
     padding: 10px;
+    border-bottom:4px solid rgba(0, 0, 0, 0.255);
 }
 
 .wrapper_two{
